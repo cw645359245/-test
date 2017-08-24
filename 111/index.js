@@ -87,6 +87,25 @@ $(function () {
 			});
 		}
 	});
+
+
+
+$('.as').click(function(){
+	$(".box").css({'display':'block'})
+
+});
+$(".back").click(function(){
+	$(".box").css({'display':'none'})
+	    
+});
+$("#agrees").click(function(){
+	$(".box").css({'display':'none'})
+	
+});
+
+
+
+
 });
 BtnCount = function () {
 	if (mobile_count == 0) {
@@ -114,10 +133,5 @@ Checkbox = function () {
 	
 		
 		}
-		
 	
-			
- 		
 };
-
-
