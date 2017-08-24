@@ -3,6 +3,7 @@ var mobile_count = 100;
 var mobile_lock = 0;
  //根据IP获取城市
 
+
 $(function () {
     function getCityByIP(rs) {
     var cityName = rs.name;
@@ -90,18 +91,6 @@ $(function () {
 
 
 
-$('.as').click(function(){
-	$(".box").css({'display':'block'})
-
-});
-$(".back").click(function(){
-	$(".box").css({'display':'none'})
-	    
-});
-$("#agrees").click(function(){
-	$(".box").css({'display':'none'})
-	
-});
 
 
 
@@ -135,3 +124,12 @@ Checkbox = function () {
 		}
 	
 };
+
+
+
+
+
+
+
+
+
